@@ -1,1 +1,42 @@
+//variables
+$fontColor-light: #ffffff;
+$fontColor-base: #171b1f;
 
+//reset 
+body {
+  margin: 0px;
+}
+
+//layouts
+.content {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.mv {
+  width: 100%;
+  height: 400px;
+  background-image: url(./assets/bg-portfolio.jpg);
+  background-size: cover;
+  background-position: top;
+}
+
+.global-nav {
+  float: right;
+  margin: 40px 0 0;
+  list-style: none;
+  &__item {
+    display: inline-block;
+    margin: 0 8px;
+    cursor: pointer;
+    a {
+      padding: 8px 16px;
+      color: $fontColor-light;
+      text-decoration: none;
+    }
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
