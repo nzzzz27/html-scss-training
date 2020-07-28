@@ -14,8 +14,8 @@
    
     <!-- header始まり -->
     <header>
-      <div lass="mv">
-        <nav class="content">
+      <div class="mv">
+        <nav class="content__inner">
           <ul class="global-nav">
             <li class="global-nav__item"><a href="">menu1</a></li>
             <li class="global-nav__item"><a href="">menu2</a></li>
@@ -27,35 +27,43 @@
     <!-- header終わり -->
     
     <!-- wrap始まり -->
-    <div id="wrap" class="clearfix">
-      <div class="content">
-        <div class="main">
-          <h1>Section1</h1>
+    <div id="wrap" class="content">
+      <div class="content__inner">
+        <main class="main">
+          <h1 class="heading heading__level1">Section1</h1>
           <p>ほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげほげ</p>
-          <section>
-            <h2><a href=""><img src="portfolio-photo.jpg" alt="PHOTOGRAPH"></a></h2>
+          <section class="main__section">
+            <h2 class="heading">
+              <a href="" class="heading__imgLink">
+                <img src="./assets/portfolio-photo.jpg" alt="PHOTOGRAPH">
+              </a>
+            </h2>
             <p>
               ふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふが
               ふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふがふが
-              <a href="">詳しくみる ≫</a>
+              <a href="" class="textLink__moreInfo">詳しくみる ≫</a>
             </p>
           </section>
-          <section>
-            <h2><a href="" ><img src="portfolio-video.jpg" alt="VIDEO"></a></h2>
+          <section class="main__section">
+            <h2 class="heading">
+              <a href="" class="heading__imgLink">
+                <img src="./assets/portfolio-video.jpg" alt="VIDEO">
+              </a>
+            </h2>
             <p>
               ほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふが
               ほげふがほげふほげふがほげふがほげふがほげふがほげふがほげふがほげふがほげふが
-              <a href="">詳しくみる ≫</a>
+              <a href="" class="textLink__moreInfo">詳しくみる ≫</a>
             </p>
           </section>
-        </div>
+        </main>
         <aside class="sidebar">
           <section>
-            <h2>Sidebar</h2>
-            <ul>
-              <li><a href="">リスト1</a></li>
-              <li><a href="">リスト2</a></li>
-              <li><a href="">りスト3</a></li>
+            <h2 class="heading heading__level2">Sidebar</h2>
+            <ul class="sidebar__list">
+              <li class="sidebar__listItem"><a href="">リスト1</a></li>
+              <li class="sidebar__listItem"><a href="">リスト2</a></li>
+              <li class="sidebar__listItem"><a href="">りスト3</a></li>
             </ul>
           </section>
         </aside>
@@ -64,8 +72,10 @@
     <!-- wrap終わり -->
     
     <!-- footer始まり -->
-    <footer>
-      <small>(C)2020 Nextbeat</small>
+    <footer class="footer">
+      <div class="content__inner--footer">
+        <small class="footer__copyRight">(C)2020 Nextbeat</small>
+      </div>
     </footer>
     <!-- footer終わり -->
     
