@@ -1,0 +1,21 @@
+/*
+  Reset default css
+*/
+
+html {
+  font-size: 93.75%;
+}
+
+body {
+  font-size:            $font-size-base;
+  font-family:          $fontFamily-gothic;
+  color:                $fontColor-base;
+  margin:               0;
+}
+
+a {
+  text-decoration:      none;
+  &:hover {
+    text-decoration:    underline;
+  }
+}

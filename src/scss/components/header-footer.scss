@@ -1,0 +1,30 @@
+/* -----------
+  Header & Footer
+-------------*/
+
+.global-nav {
+  margin:               0;
+  padding-top:          40px;
+  list-style:           none;
+  text-align:           right;
+  &__item {
+    display:            inline-block;
+    margin:             0 8px;
+    cursor:             pointer;
+    a {
+      padding:          8px 16px;
+      color:            $fontColor-light;
+    }
+  }
+}
+
+
+.footer {
+  width:                100%;
+  background-color:     $bgColor-dark;
+  &__copyRight {
+    display:            block;
+    text-align:         center;
+    color:              $fontColor-light;
+  }
+}
