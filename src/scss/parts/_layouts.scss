@@ -6,7 +6,7 @@
 .content {
   margin:               40px 0;
   &__inner {
-    max-width:          $max-width;
+    max-width:          $base-width-max;
     width:              100%;
     margin:             0 auto;
     position:           relative;
@@ -19,7 +19,7 @@
 //2 columns - main area
 .main {
   display:              inline-block;
-  width:                calc(100% - (64px + 220px));  // 100% - (.mainの左右マージン + sidebar width)
+  width:                calc(100% - (64px + $sidebar-width));  // 100% - (.mainの左右マージン + sidebar width)
   margin:               0 32px;
   &__section:not(:last-child) {
     margin-bottom:      40px;
@@ -31,16 +31,16 @@
   position:             absolute;
   top:                  0;
   right:                0;
-  width:                220px;
+  width:                $sidebar-width;
   &__list {
     padding-left:       1.2em;
   }
-  &__listItem {
+  &__list-item {
     padding:            4px 0; 
     a {
       display:          inline-block;
       width:            100%;
-      color:            $fontColor-base;
+      color:            $font-color-base;
     }
     &:not(:first-child) {
       margin-top:       8px;

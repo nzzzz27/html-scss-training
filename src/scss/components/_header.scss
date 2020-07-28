@@ -1,7 +1,8 @@
-/* -----------
-  Header & Footer
--------------*/
+/* --------
+   header 
+---------- */
 
+//navigation
 .global-nav {
   margin:               0;
   padding-top:          40px;
@@ -13,18 +14,9 @@
     cursor:             pointer;
     a {
       padding:          8px 16px;
-      color:            $fontColor-light;
+      color:            $font-color-light;
     }
   }
 }
 
 
-.footer {
-  width:                100%;
-  background-color:     $bgColor-dark;
-  &__copyRight {
-    display:            block;
-    text-align:         center;
-    color:              $fontColor-light;
-  }
-}
