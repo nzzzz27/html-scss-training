@@ -33,7 +33,7 @@
   right:                0;
   width:                $sidebar-width;
   &__list {
-    padding-left:         1.2em;
+    padding-left:         $list-space-regular;
     &--item {
       padding:            $space-small 0; 
       &:not(:first-child) {
