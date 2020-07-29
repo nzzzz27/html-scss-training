@@ -4,14 +4,14 @@
 
 // whole area
 .content {
-  margin:               40px 0;
+  margin:               $space-large-x 0;
   &__inner {
     max-width:          $base-width-max;
     width:              100%;
     margin:             0 auto;
     position:           relative;
     &--footer {
-      padding:          16px 0;
+      padding:          $space-regular 0;
     }
   }
 }
@@ -19,10 +19,10 @@
 //2 columns - main area
 .main {
   display:              inline-block;
-  width:                calc(100% - 64px - #{$sidebar-width});  // 100% - mainの左右マージン - sidebar width)
-  margin:               0 32px;
+  width:                calc(100% - (#{$space-large} * 2) - #{$sidebar-width});  // 100% - mainの左右マージン - sidebar width)
+  margin:               0 $space-large;
   &__section:not(:last-child) {
-    margin-bottom:      40px;
+    margin-bottom:      $space-large-x;
   }
 }
 
@@ -35,9 +35,9 @@
   &__list {
     padding-left:         1.2em;
     &--item {
-      padding:            4px 0; 
+      padding:            $space-small 0; 
       &:not(:first-child) {
-        margin-top:       8px;
+        margin-top:       $space-small-x;
       }
       a {
         display:          inline-block;

@@ -6,21 +6,21 @@
   font-family:          $fontfamily-serif;
   margin-top:           0;
   &__large {
-    font-size:          $font-size-heading1;
-    padding-bottom:     8px;
+    font-size:          $font-size-heading-large;
+    padding-bottom:     $space-regular;
   }
   &__large--borderbottom {
     @extend .heading__large;
     border-bottom:      1px solid $border-color-light;
   }
   &__sidebar {
-    font-size:          24px;
+    font-size:          $font-size-heading-sidebar;
   }
   &__img-link {
     display:            inline-block;
     width:              100%;
-    height:             210px;
-    background-color:   #000000;
+    height:             $img-link-height;
+    background-color:   $bg-color-dark;
     position:           relative;
     overflow:           hidden;
     img {
