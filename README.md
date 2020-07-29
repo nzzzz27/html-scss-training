@@ -15,7 +15,8 @@ yarn run build.watch
 ```
 
 # Directory structure
-## root/
+## root
+```
 root/   
 ├ notes  
 ├ src  
@@ -26,8 +27,10 @@ root/
 ├ package.json  
 ├ webpack.config.js  
 └ yarn-lock  
+```
 
-## src/
+## src
+```
 src   
  ├ assets  
  └ scss  
@@ -35,4 +38,4 @@ src
     ├ components  :コンポーネント。  
     ├ parts       :汎用性の高いコード。headingなど。  
     └ main.scss  
-
+```
