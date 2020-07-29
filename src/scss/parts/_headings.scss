@@ -5,12 +5,15 @@
 .heading {
   font-family:          $fontfamily-serif;
   margin-top:           0;
-  &__level1 {
+  &__large {
     font-size:          $font-size-heading1;
     padding-bottom:     8px;
+  }
+  &__large--borderbottom {
+    @extend .heading__large;
     border-bottom:      1px solid $border-color-light;
   }
-  &__level2 {
+  &__sidebar {
     font-size:          24px;
   }
   &__img-link {
