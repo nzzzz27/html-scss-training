@@ -3,19 +3,19 @@
 */
 
 html {
-  font-size: 93.75%;
+  font-size: $font-size-base-px;
 }
 
 body {
-  font-size:            $font-size-base;
-  font-family:          $fontfamily-gothic;
-  color:                $font-color-base;
-  margin:               0;
+  font-size:     $font-size-base;
+  font-family:   $fontfamily-gothic;
+  color:         $font-color-base;
+  margin:        0;
 }
 
 a {
-  text-decoration:      none;
+  text-decoration: none;
   &:hover {
-    text-decoration:    underline;
+    text-decoration: underline;
   }
 }

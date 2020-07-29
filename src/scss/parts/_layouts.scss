@@ -4,45 +4,45 @@
 
 // whole area
 .content {
-  margin:               40px 0;
+  margin:  40px 0;
   &__inner {
-    max-width:          $base-width-max;
-    width:              100%;
-    margin:             0 auto;
-    position:           relative;
+    max-width:  $base-width-max;
+    width:      100%;
+    margin:     0 auto;
+    position:   relative;
     &--footer {
-      padding:          16px 0;
+      padding:  16px 0;
     }
   }
 }
 
 //2 columns - main area
 .main {
-  display:              inline-block;
-  width:                calc(100% - 64px - #{$sidebar-width});  // 100% - mainの左右マージン - sidebar width)
-  margin:               0 32px;
+  display:  inline-block;
+  width:    calc(100% - 64px - #{$sidebar-width});  // 100% - mainの左右マージン - sidebar width)
+  margin:   0 32px;
   &__section:not(:last-child) {
-    margin-bottom:      40px;
+    margin-bottom:  40px;
   }
 }
 
 // 2 columns - side area
 .sidebar {
-  position:             absolute;
-  top:                  0;
-  right:                0;
-  width:                $sidebar-width;
+  position:  absolute;
+  top:       0;
+  right:     0;
+  width:     $sidebar-width;
   &__list {
-    padding-left:         1.2em;
+    padding-left:  1.2em;
     &--item {
-      padding:            4px 0; 
+      padding:  4px 0; 
       &:not(:first-child) {
-        margin-top:       8px;
+        margin-top:  8px;
       }
       a {
-        display:          inline-block;
-        width:            100%;
-        color:            $font-color-base;
+        display:  inline-block;
+        width:    100%;
+        color:    $font-color-base;
       }
     }
   }
