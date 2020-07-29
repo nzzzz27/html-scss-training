@@ -4,8 +4,7 @@
   "description": "## webpack test",
   "scripts": {
     "build": "webpack --mode=production",
-    "build.watch": "webpack --mode=development --watch",
-    "start": "webpack-dev-server"
+    "build.watch": "webpack --mode=development --watch"
   },
   "devDependencies": {
     "css-loader": "3.5.3",
@@ -16,5 +15,6 @@
     "style-loader": "1.2.1",
     "webpack": "4.43.0",
     "webpack-cli": "3.3.11"
-  }
+  },
+  "dependencies": {}
 }

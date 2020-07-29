@@ -1,0 +1,13 @@
+/* -----------
+  footer
+-------------*/
+
+.footer {
+  width:             100%;
+  background-color:  $bg-color-dark;
+  &__copy-right {
+    display:     block;
+    text-align:  center;
+    color:       $font-color-light;
+  }
+}
