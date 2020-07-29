@@ -3,15 +3,15 @@
 -------------------- */ 
 
 .heading {
-  font-family:          $fontfamily-serif;
-  margin-top:           0;
+  font-family:  $fontfamily-serif;
+  margin-top:   0;
   &__large {
     font-size:          $font-size-heading-large;
     padding-bottom:     $space-regular;
   }
   &__large--borderbottom {
     @extend .heading__large;
-    border-bottom:      1px solid $border-color-light;
+    border-bottom:  1px solid $border-color-light;
   }
   &__sidebar {
     font-size:          $font-size-heading-sidebar;
@@ -24,13 +24,13 @@
     position:           relative;
     overflow:           hidden;
     img {
-      min-width:        100%;
-      position:         absolute;
-      top:              50%;
-      left:             50%;
-      transform:        translate(-50%, -50%);
+      min-width:  100%;
+      position:   absolute;
+      top:        50%;
+      left:       50%;
+      transform:  translate(-50%, -50%);
       &:hover {
-        opacity:        .8;
+        opacity:  .8;
       }
     }
   }
