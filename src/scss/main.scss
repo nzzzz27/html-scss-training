@@ -1,0 +1,15 @@
+//サイト全体に関わる部分
+@import './common/variables';
+@import './common/reset';
+
+//共通パーツ
+@import './parts/layouts';
+@import './parts/headings';
+@import './parts/parts';
+
+//コンポーネント
+@import './components/header';
+@import './components/footer';
+@import './components/mv';
+
+
