@@ -4,17 +4,17 @@
 
 //navigation
 .global-nav {
-  margin:  0;
-  padding-top:  40px;
-  list-style:   none;
-  text-align:   right;
+  margin:               0;
+  padding-top:          $space-large-x;
+  list-style:           none;
+  text-align:           right;
   &__item {
-    display:  inline-block;
-    margin:   0 8px;
-    cursor:   pointer;
+    display:            inline-block;
+    margin:             0 $space-small-x;
+    cursor:             pointer;
     a {
-      padding: 8px 16px;
-      color:   $font-color-light;
+      padding:          $space-small-x $space-regular;
+      color:            $font-color-light;
     }
   }
 }

@@ -34,7 +34,7 @@ a {
 
 .main {
   display: inline-block;
-  width: calc(100% - 64px - 220px);
+  width: calc(100% - (32px * 2) - 220px);
   margin: 0 32px; }
   .main__section:not(:last-child) {
     margin-bottom: 40px; }
@@ -63,16 +63,16 @@ a {
   margin-top: 0; }
   .heading__large, .heading__large--borderbottom {
     font-size: 2.66667rem;
-    padding-bottom: 8px; }
+    padding-bottom: 16px; }
   .heading__large--borderbottom {
     border-bottom: 1px solid #b7b7b7; }
   .heading__sidebar {
-    font-size: 24px; }
+    font-size: 1.6rem; }
   .heading__img-link {
     display: inline-block;
     width: 100%;
     height: 210px;
-    background-color: #000000;
+    background-color: #333333;
     position: relative;
     overflow: hidden; }
     .heading__img-link img {
