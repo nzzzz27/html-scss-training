@@ -1,0 +1,49 @@
+/*  ---------------------
+  layouts
+------------------------- */
+
+// whole area
+.content {
+  margin:               $space-large-x 0;
+  &__inner {
+    max-width:  $base-width-max;
+    width:      100%;
+    margin:     0 auto;
+    position:   relative;
+    &--footer {
+      padding:          $space-regular 0;
+    }
+  }
+}
+
+//2 columns - main area
+.main {
+  display:              inline-block;
+  width:                calc(100% - (#{$space-large} * 2) - #{$sidebar-width});  // 100% - mainの左右マージン - sidebar width)
+  margin:               0 $space-large;
+  &__section:not(:last-child) {
+    margin-bottom:      $space-large-x;
+  }
+}
+
+// 2 columns - side area
+.sidebar {
+  position:  absolute;
+  top:       0;
+  right:     0;
+  width:     $sidebar-width;
+  &__list {
+    padding-left:         $list-space-regular;
+    &--item {
+      padding:            $space-small 0; 
+      &:not(:first-child) {
+        margin-top:       $space-small-x;
+      }
+      a {
+        display:  inline-block;
+        width:    100%;
+        color:    $font-color-base;
+      }
+    }
+  }
+}

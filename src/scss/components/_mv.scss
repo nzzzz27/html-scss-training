@@ -1,0 +1,12 @@
+/* ------------
+ Main visual 
+ ----------- */ 
+.mv {
+  width:                100%;
+  height:               $mv-height;
+  background-image:     url(../assets/bg-portfolio.jpg);
+  background-size:      cover;
+  background-position:  top;
+}
+
+

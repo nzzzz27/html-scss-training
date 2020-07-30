@@ -1,0 +1,43 @@
+/* ---------------
+  variables 
+----------------- */
+
+// color - font
+$font-color-light:   #ffffff;
+$font-color-base:    #333333;
+$font-color-link:    #00619a;
+
+// color - backgorund
+$bg-color-dark:  #333333;
+
+// color -border
+$border-color-light:   #b7b7b7;
+
+// font family 
+$fontfamily-gothic: 'Avenir','Helvetica Neue','Helvetica','Arial','Hiragino Sans','ヒラギノ角ゴシック',YuGothic,'Yu Gothic','メイリオ', Meiryo,'ＭＳ Ｐゴシック','MS PGothic';
+$fontfamily-serif:  "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+
+// font size
+$font-size-base-px:          15px;
+$font-size-heading-large:    1.0rem * (40px / $font-size-base-px); //40px
+$font-size-heading-sidebar:  1.0rem * (24px / $font-size-base-px); //24px
+$font-size-base:             1.0rem; //15px (default)
+
+// width 
+$base-width-max:  1000px;
+$sidebar-width:   220px;
+
+// height 
+$mv-height:         400px;
+$img-link-height:   210px;
+
+// spaces 
+$space-small:     4px;
+$space-small-x:   8px;
+$space-regular:   16px;
+$space-regular-x: 24px;
+$space-large:     32px;
+$space-large-x:   40px;
+
+// spaces - list 
+$list-space-regular:  1.2em;

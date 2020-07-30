@@ -1,13 +1,14 @@
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 const path = require('path');
+const pathBuild = "./project/build";
 
 module.exports = {
-  context: path.join(__dirname, './'),
+  context: path.join(__dirname, ''),
   // ここがどのscssをみるか
-  entry: "./main.scss",
+  entry: "./src/scss/main.scss",
   output: {
     // どのディレクトリにどんな名前でbuild後のcssを吐くか
-    path: path.join(__dirname, ''),
+    path: path.join(__dirname, pathBuild),
     filename: '[name].css'
   },
   module: {
@@ -22,13 +23,12 @@ module.exports = {
       },
       {
         test: /\.(png|jpe?g|gif)$/i,
-        use: [
-          {
-            loader: 'file-loader',
-          },
-        ]
-      }
-    ]
+        loader: 'file-loader',
+        options: {
+          outputPat: pathBuild
+        },
+      },
+    ],
   },
   plugins: [
     new ExtractTextPlugin('[name].css')

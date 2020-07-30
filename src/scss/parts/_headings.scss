@@ -1,0 +1,38 @@
+/* ------------------
+  headings 
+-------------------- */ 
+
+.heading {
+  font-family:  $fontfamily-serif;
+  margin-top:   0;
+  &__large {
+    font-size:          $font-size-heading-large;
+    padding-bottom:     $space-regular;
+  }
+  &__large--borderbottom {
+    @extend .heading__large;
+    border-bottom:  1px solid $border-color-light;
+  }
+  &__sidebar {
+    font-size:          $font-size-heading-sidebar;
+  }
+  &__img-link {
+    display:            inline-block;
+    width:              100%;
+    height:             $img-link-height;
+    background-color:   $bg-color-dark;
+    position:           relative;
+    overflow:           hidden;
+    img {
+      min-width:  100%;
+      position:   absolute;
+      top:        50%;
+      left:       50%;
+      transform:  translate(-50%, -50%);
+      &:hover {
+        opacity:  .8;
+      }
+    }
+  }
+}
+
